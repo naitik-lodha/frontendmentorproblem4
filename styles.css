@@ -87,11 +87,12 @@ body {
   }
   .illu {
     width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
   }
   .contents {
     text-align: center;
     font-weight: 400;
-    background-color: black;
   }
   .heading {
     font-size: 25px;
