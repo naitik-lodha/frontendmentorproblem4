@@ -1,0 +1,102 @@
+:root {
+  --purple: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+
+body {
+  background: url("images/bg-desktop.svg");
+  background-color: var(--purple);
+}
+.logo img {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 45px;
+}
+
+.container {
+  display: flex;
+  margin-top: 2rem;
+}
+.illu {
+  max-width: 700px;
+}
+
+.contents {
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+}
+.heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+  font-size: 38.5px;
+  margin-right: 5px;
+  margin-bottom: 2rem;
+}
+.description {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.register {
+  color: var(--purple);
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+}
+.register:hover {
+  background-color: var(--magenta);
+  cursor: pointer;
+  color: white;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  fill: white;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px white solid;
+}
+.icons:hover {
+  fill: var(--magenta);
+  border-color: var(--magenta);
+  cursor: pointer;
+}
+footer {
+  margin-right: 2.5rem;
+  display: flex;
+  justify-content: space-between 2px;
+  justify-content: right;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .illu {
+    width: 100%;
+  }
+  .contents {
+    text-align: center;
+    font-weight: 400;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 11px;
+  }
+  footer {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
