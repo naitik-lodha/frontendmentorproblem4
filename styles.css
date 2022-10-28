@@ -100,6 +100,7 @@ body {
     margin: right 2rem;
   }
   .icon-container {
+    flex-direction: row;
     margin: none;
     justify-content: center;
     margin-top: 1rem;
