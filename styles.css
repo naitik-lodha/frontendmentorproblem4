@@ -97,12 +97,14 @@ body {
   }
   .description {
     font-size: 11px;
-    margin: right 2rem;
+    margin-right: 2rem;
+    width: 90%;
   }
   .icon-container {
     flex-direction: row;
     margin: none;
     justify-content: center;
     margin-top: 1rem;
+    margin-left: 4.5rem;
   }
 }
