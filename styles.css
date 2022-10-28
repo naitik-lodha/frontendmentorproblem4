@@ -70,7 +70,7 @@ body {
   border-color: var(--magenta);
   cursor: pointer;
 }
-footer {
+.icon-container {
   margin-right: 2.5rem;
   display: flex;
   justify-content: space-between 2px;
@@ -81,6 +81,9 @@ footer {
 @media only screen and (max-width: 700px) {
   .container {
     flex-direction: column;
+  }
+  .logo {
+    margin-left: none;
   }
   .illu {
     width: 100%;
@@ -94,8 +97,10 @@ footer {
   }
   .description {
     font-size: 11px;
+    margin: right 2rem;
   }
-  footer {
+  .icon-container {
+    margin: none;
     justify-content: center;
     margin-top: 1rem;
   }
