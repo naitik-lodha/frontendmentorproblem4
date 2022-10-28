@@ -86,11 +86,12 @@ body {
     margin-left: none;
   }
   .illu {
-    width: 100%;
+    width: 85%;
   }
   .contents {
     text-align: center;
     font-weight: 400;
+    background-color:black;
   }
   .heading {
     font-size: 25px;
